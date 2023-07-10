@@ -1,0 +1,261 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header-container {
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 809px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.header-content {
+    padding-top: 230px;
+    padding-right: 250px;
+}
+
+.header-title {
+
+    color: #151414;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+
+}
+
+.header-description {
+    color: #444343;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 15px;
+}
+
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    width: 160px;
+    height: 64px;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 1450px;
+    margin-top: 45px;
+
+}
+
+.main-container {
+
+    padding-top: 300px;
+    background-image: url("../images/person.png");
+    background-repeat: no-repeat;
+    background-position: 35%;
+    width: 1600px;
+    background-size: contain;
+
+
+
+}
+
+
+.main-title {
+    padding-left: 1000px;
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.main-description {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 1000px;
+    padding-top: 10px;
+
+
+}
+
+.failure-list {
+    margin: 10px;
+    padding-left: 1000px;
+}
+
+.my-plans {
+
+    margin-top: 200px;
+    width: 1600px;
+
+    
+}
+
+.plans-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 800px;
+    padding-bottom: 100px;
+
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 192px;
+    padding-left: 300px;
+}
+
+.plans-description {
+    background-image: url("../images/watch.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin-top: 90px;
+    margin-left: 370px;
+    border-radius: 8px;
+    position: relative;
+    display: inline-block;
+}
+
+.photo {
+    display: block;
+    width: 100%;
+
+}
+
+.plans-text {
+    position: absolute;
+    top: 15%;
+    padding-left: 64px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+   
+}
+
+.mind{
+    padding-right: 250px;
+}
+
+.btn{
+    border-radius: 5px;
+background: #FFF;
+width: 160px;
+height: 64px;
+position:absolute;
+bottom: 40%;
+margin-left: 64px;
+color: #F15B22;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+
+
+}
+
+.footer-container{
+background:  #151414;
+margin-top: 130px;
+display: flex;
+justify-content: space-between;
+height: 577px;  
+position: relative;
+}
+
+.future-title{
+    color: #F8F8F8;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+position: relative;
+}
+
+.future-description{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding-top: 16px;
+position: relative;
+}
+
+.footer-column{
+padding-left: 230px;
+padding-top: 170px;
+position: relative;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+
+#sub{
+    color: #FFF;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+padding-right: 450px;
+
+}
+
+
+
+#email{
+    border-radius: 8px;
+border: 1px solid #FFF;
+width: 325px;
+height: 64px;
+color:  #F3F3F3;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+padding: 5px;
+background-color: #151414;
+margin-top: 50px;
+margin-right: 100px;
+
+
+}
+.btn-ordinary{
+    border-radius: 5px;
+    background: #FFF;
+    width: 160px;
+    height: 64px;
+    position:absolute;
+    bottom: 25%;
+    margin-left: 64px;
+    margin-top: 40px;
+     color: #F15B22; 
+     font-size: 20px;  
+     text-align: center; 
+}
+
+.sub input{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    margin-left: -10px;
+}
